@@ -1,24 +1,64 @@
-{"success":true,
-  "currencies":{
-    "AED":{"description":"United Arab Emirates Dirham","code":"AED"},
-    "AFN":{"description":"Afghan Afghani","code":"AFN"},
-    "ALL":{"description":"Albanian Lek","code":"ALL"},
-    "AMD":{"description":"Armenian Dram","code":"AMD"},
-    "ANG":{"description":"Netherlands Antillean Guilder","code":"ANG"},
-    "AOA":{"description":"Angolan Kwanza","code":"AOA"},
-    "TMT":{"description":"Turkmenistani Manat","code":"TMT"}
-  },
-  "quotes":{
-    "USDAED":3.67295,
-    "USDAFN":76.350403,
-    "USDALL":104.800403,
-    "USDAMD":487.549403,
-    "USDANG":1.790403,
-    "USDAOA":654.800403,
-    "USDTMT":3.5,
-    "TMTAMD":0.001,
-    "TMTAOA":0.001,
-    "AMDTMT":0.002,
-    "AOATMT":0.002
+{
+  "data": {
+    "EUR": {
+      "symbol": "€",
+      "name": "Euro",
+      "symbol_native": "€",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "EUR",
+      "name_plural": "Euros",
+      "type": "fiat"
+    },
+    "USD": {
+      "symbol": "$",
+      "name": "US Dollar",
+      "symbol_native": "$",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "USD",
+      "name_plural": "US dollars",
+      "type": "fiat"
+    },
+    "JPY": {
+      "symbol": "¥",
+      "name": "Japanese Yen",
+      "symbol_native": "￥",
+      "decimal_digits": 0,
+      "rounding": 0,
+      "code": "JPY",
+      "name_plural": "Japanese yen",
+      "type": "fiat"
+    },
+    "BGN": {
+      "symbol": "BGN",
+      "name": "Bulgarian Lev",
+      "symbol_native": "лв.",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "BGN",
+      "name_plural": "Bulgarian leva",
+      "type": "fiat"
+    },
+    "CZK": {
+      "symbol": "Kč",
+      "name": "Czech Republic Koruna",
+      "symbol_native": "Kč",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "CZK",
+      "name_plural": "Czech Republic korunas",
+      "type": "fiat"
+    },
+    "DKK": {
+      "symbol": "Dkr",
+      "name": "Danish Krone",
+      "symbol_native": "kr",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "DKK",
+      "name_plural": "Danish kroner",
+      "type": "fiat"
+    }
   }
 }
